@@ -1,0 +1,62 @@
+<style>
+    .report {
+        font-family: monospace;
+        max-width: 100%;
+        margin: 0 auto;
+        font-weight: bold;
+        padding: 20px;
+        background-color: #1e1e1e;
+        border: 1px solid #363636;
+        border-radius: 5px;
+        justify-content: center;
+    }
+
+    .report h1 {
+        overflow: hidden;
+        border-right: .15em solid whitesmoke;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3s steps(40, end), blink-caret .75s step-end infinite;
+    }
+
+    @keyframes blink-caret {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: whitesmoke;
+        }
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+    .report h1 {
+        text-align: center;
+        color: #b0b0b0;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .report h2 {
+        text-align: justify;
+        color: #3fc0b5;
+        font-size: 20px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="report">
+    <h1>The PDP-10: Technical Details</h1>
+    <h2>The PDP-10 comprised a series of 36-bit word systems, each with CPUs, memory, and other components, all linked by busses carried in point-point cables.</h2>
+    <h2>For storage and data transfer, high-speed mass storage device controllers were utilized, with the CPU controlling channels via the device controller.</h2>
+    <h2>Some examples of mass storage controllers include the RP10 disk controller with RP01, RP02, and RP03 disk drives, the RC10 disk/drum system with an RD10 fixed-head disk and RM10B drum, and the TM10 Magnetic Tape Control.</h2>
+    </div>
